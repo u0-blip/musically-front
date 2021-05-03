@@ -159,7 +159,7 @@ const CreateTrack = ({ classes }) => {
                                         onClick={() => setOpen(false)}
                                         className={classes.cancel}
                                     >
-                                        submit
+                                        Cancel
                   </Button>
                                     <Button
                                         disabled={
@@ -170,7 +170,7 @@ const CreateTrack = ({ classes }) => {
                                     >
                                         {submitting ? (
                                             <CircularProgress className={classes.save} size={24} />
-                                        ) : ("submit")}
+                                        ) : ("Submit")}
                                     </Button>
                                 </DialogActions>
                             </form>
