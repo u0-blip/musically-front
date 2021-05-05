@@ -12,7 +12,7 @@ import Login from './Auth/Login';
 import Signup from './Auth/Signup';
 import Profile from './pages/profile';
 
-Axios.defaults.baseURL = 'https://musically.peterelectreng.com';
+Axios.defaults.baseURL = 'https://musically.tbitzz.com';
 
 const client = new ApolloClient({
   uri: Axios.defaults.baseURL + '/graphql/',
